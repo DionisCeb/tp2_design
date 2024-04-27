@@ -1,0 +1,46 @@
+.abonez-toi {
+    justify-content: start;
+    gap: 5px;
+}
+
+.abonez-toi h2 {
+    border-bottom: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.abonez-toi p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter-form input[type="email"] {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.bouton_footer {
+    padding: 10px 20px;
+    background-color: #efd281;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bouton_footer:hover {
+    background-color: #4a3b3b;
+}
+
+

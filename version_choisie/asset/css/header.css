@@ -1,0 +1,110 @@
+/* Styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000;
+}
+
+body, html {
+    height: 100%;
+    background-color: #eeeeee;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Styles généraux */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #978d94;
+}
+
+.medaillon {
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Styles des liens de navigation */
+nav *,
+.dropbtn {
+    display: inline-block;
+}
+
+.liens * {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:not(.logo, .btn-contact):hover {
+    color: #4c839d;
+}
+
+nav a:hover,
+.dropbtn:hover {
+    transform: scale(1.1);
+}
+
+/* Styles du menu déroulant */
+nav {
+    position: relative;
+}
+
+ .dropdown:hover .dropdown-content {
+    display: block;
+} 
+
+
+
+.dropdown-content {
+    display: none;
+    background-color: rgb(136, 136, 136);
+    position: absolute;
+    min-width: max-content;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+.dropdown-content a:hover {
+    background-color: #cbb9b9;
+}
+
+
+/*Le bouton contact*/
+/* Styles for the button */
+.btn-contact {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4c839d; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+ .btn-contact:hover {
+    color: white;
+} 

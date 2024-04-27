@@ -1,0 +1,75 @@
+
+@media only screen and (max-width: 1340px) {
+    .restaurant {
+        flex-basis: 45%; /* 2 images par ligne sur les écrans moyens */
+        max-width: calc(50% - 20px); /* Tenir compte des marges */
+    }
+    .restaurant img {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 658px) {
+     .mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .mission article .bouton_conteneur{
+        display: flex;
+        justify-content: center;
+    }
+    .restaurant {
+        flex-basis: 90%; /* 1 image par ligne sur les écrans plus petits */
+        max-width: calc(100% - 20px); /* Tenir compte des marges */
+    }
+    .restaurant img {
+        height: auto !important;
+    }
+
+}
+
+/*Boite de reservation*/
+@media screen and (max-width: 600px) {
+    .reservation-boite button,
+    .reservation-boite input,
+    .reservation-boite select {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    @media screen and (max-width: 600px) {
+    .reservation-boite{
+        flex-direction: column;
+    }
+    .reservation-boite button,
+    .reservation-boite input,
+    .reservation-boite select {
+        padding: 10px;
+        width: 100%;
+    }
+}
+}
+
+
+
+/*MEDIA QUERY pied de page!!!!!*/
+
+
+ @media screen and (max-width: 950px) {
+    .pied_de_page .structure .contenu_contact{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .contenu_contact .liens_colonne,
+    .contact_info_colonne,
+    .abonez-toi {
+        width: 100% !important;
+    }
+} 
+
+

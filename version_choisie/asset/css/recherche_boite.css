@@ -1,0 +1,40 @@
+/*Trouvez en restaurant Vedge près de chez vous*/
+.contenu_recherche {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/*La boite de recherche*/
+.recherche_boite {
+    position: relative;
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+/*le champ de recherche*/
+.recherche_boite input {
+    border: none;
+    height: 100%;
+    width: 80%;
+    border-radius: 20px;
+}
+
+/*arrondir les bordures*/
+.recherche_boite, input {
+    border-radius: 20px;
+}
+
+/*L'icone recherche*/
+.recherche-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+}
